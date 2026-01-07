@@ -1,0 +1,174 @@
+<!DOCTYPE html><html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OXAOFFICIAL_PEDIA | Digital Service</title>
+  <meta name="description" content="OXAOFFICIAL_PEDIA menyediakan layanan digital seperti VPS DigitalOcean, panel, bot WhatsApp & Telegram, web payment, dan jasa digital lainnya." />
+  <link rel="icon" type="image/png" href="https://files.catbox.moe/pkv5en.jpg" />
+  <meta property="og:image" content="https://files.catbox.moe/pkv5en.jpg" />
+  <meta name="twitter:image" content="https://files.catbox.moe/pkv5en.jpg" />
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: Arial, Helvetica, sans-serif; }
+    body { background: #f5f7fb; color: #222; }
+    header {
+      background: linear-gradient(135deg, #1e88e5, #42a5f5);
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 { font-size: 2.2em; margin-bottom: 10px; }
+    header p { opacity: 0.9; }
+    section { padding: 40px 20px; max-width: 1000px; margin: auto; }
+    .card {
+      background: #fff;
+      border-radius: 10px;
+      padding: 25px;
+      margin-bottom: 25px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.06);
+    }
+    h2 { margin-bottom: 15px; color: #1e88e5; }
+    ul { padding-left: 18px; }
+    ul li { margin-bottom: 8px; }
+    .contact {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .contact div { flex: 1; }
+    .btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 12px 20px;
+      background: #1e88e5;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+    }
+    .btn:hover { background: #1565c0; }
+    footer {
+      background: #0d47a1;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+    }
+    input, select, textarea { border: 1px solid #ccc; border-radius: 5px; }
+  </style>
+</head>
+<body><header>
+  <img src="https://files.catbox.moe/pkv5en.jpg" alt="OXAOFFICIAL_PEDIA Logo" style="width:100px;height:auto;margin-bottom:15px;" />
+  <h1>OXAOFFICIAL_PEDIA</h1>
+  <p>Digital Service • Hosting • Bot • Web Solution</p>
+</header><section>
+  <div class="card">
+    <h2>Tentang Kami</h2>
+    <p>
+      <strong>OXAOFFICIAL_PEDIA</strong> adalah layanan digital berbasis online yang berfokus pada penyediaan
+      kebutuhan hosting, bot automation, dan solusi web payment dengan pelayanan cepat, aman, dan terpercaya.
+    </p>
+  </div>  <div class="card">
+    <h2>Produk & Layanan</h2>
+    <ul>
+      <li>Panel Ptredoctuly</li>
+      <li>VPS DigitalOcean</li>
+      <li>Akun DigitalOcean</li>
+      <li>Script Bot WhatsApp</li>
+      <li>Script Bot Telegram</li>
+      <li>Jasa Rename APK Bug</li>
+      <li>Jasa Rename Script Bot WhatsApp</li>
+      <li>Jasa Rename Script Bot Telegram</li>
+      <li>Jasa Create Web Payment</li>
+      <li>Jasa Create Logo JB / Hosting</li>
+    </ul>
+  </div>  <div class="card">
+    <h2>Metode Pembayaran</h2>
+    <ul>
+      <li>DANA ✅</li>
+      <li>QRIS ✅</li>
+      <li>OVO ❌</li>
+      <li>GOPAY ❌</li>
+    </ul>
+  </div>  <div class="card">
+    <h2>Kontak & Lokasi</h2>
+    <div class="contact">
+      <div>
+        <p><strong>WhatsApp (Official)</strong></p>
+        <p>+62 831-7397-1485</p>
+        <a class="btn" href="https://wa.me/6283173971485?text=Halo%20OXAOFFICIAL_PEDIA,%20saya%20ingin%20order" target="_blank">Order via WhatsApp</a>
+      </div>
+      <div>
+        <p><strong>Lokasi</strong></p>
+        <p>Jakarta – Indonesia</p>
+        <p>Online Service</p>
+      </div>
+    </div>
+  </div>  <div class="card">
+    <h2>Layanan Kami</h2>
+    <h3>🚀 JB / Hosting</h3>
+    <p>Layanan JB Panel, VPS, dan kebutuhan hosting dengan performa stabil dan support cepat.</p>
+    <h3>🤖 Bot Automation</h3>
+    <p>Penyediaan script bot WhatsApp & Telegram siap pakai, custom rename, dan penyesuaian kebutuhan bisnis.</p>
+    <h3>🌐 Web Solution</h3>
+    <p>Pembuatan web payment, landing page, dan kebutuhan website digital.</p>
+  </div>  <div class="card">
+    <h2>Form Order</h2>
+    <form onsubmit="event.preventDefault(); sendToWhatsApp();">
+      <label>Nama Lengkap</label><br />
+      <input type="text" id="name" placeholder="Nama Anda" required style="width:100%;padding:10px;margin:8px 0;" />
+      <label>WhatsApp</label><br />
+      <input type="text" id="wa" placeholder="08xxxxxxxxxx" required style="width:100%;padding:10px;margin:8px 0;" />
+      <label>Pilih Layanan</label><br />
+      <select id="service" style="width:100%;padding:10px;margin:8px 0;">
+        <option>Panel / Hosting</option>
+        <option>VPS / Akun DigitalOcean</option>
+        <option>Bot WhatsApp</option>
+        <option>Bot Telegram</option>
+        <option>Web Payment</option>
+        <option>Logo JB / Hosting</option>
+      </select>
+      <label>Catatan</label><br />
+      <textarea id="note" placeholder="Detail kebutuhan" style="width:100%;padding:10px;margin:8px 0;"></textarea>
+      <button class="btn" type="submit">Kirim Order</button>
+    </form>
+  </div>  <div class="card">
+    <h2>Form Laporan / Bantuan</h2>
+    <form onsubmit="event.preventDefault(); sendReport();">
+      <label>Nama</label><br />
+      <input type="text" id="reportName" placeholder="Nama Pelapor" required style="width:100%;padding:10px;margin:8px 0;" />
+      <label>Kontak</label><br />
+      <input type="text" id="reportContact" placeholder="WhatsApp / Email" required style="width:100%;padding:10px;margin:8px 0;" />
+      <label>Jenis Laporan</label><br />
+      <select id="reportType" style="width:100%;padding:10px;margin:8px 0;">
+        <option>Kendala Order</option>
+        <option>Komplain</option>
+        <option>Pertanyaan Layanan</option>
+        <option>Lainnya</option>
+      </select>
+      <label>Isi Laporan</label><br />
+      <textarea id="reportMessage" placeholder="Jelaskan laporan Anda" style="width:100%;padding:10px;margin:8px 0;"></textarea>
+      <button class="btn" type="submit">Kirim Laporan</button>
+    </form>
+  </div>
+</section><footer>
+  <p>© 2026 OXAOFFICIAL_PEDIA • All Rights Reserved</p>
+</footer><script>
+  function sendToWhatsApp() {
+    const name = document.getElementById('name').value;
+    const wa = document.getElementById('wa').value;
+    const service = document.getElementById('service').value;
+    const note = document.getElementById('note').value;
+    const message = `Halo OXAOFFICIAL_PEDIA,%0ANama: ${name}%0AWhatsApp: ${wa}%0ALayanan: ${service}%0ACatatan: ${note}`;
+    window.open(`https://wa.me/6283173971485?text=${message}`, '_blank');
+  }
+
+  function sendReport() {
+    const name = document.getElementById('reportName').value;
+    const contact = document.getElementById('reportContact').value;
+    const type = document.getElementById('reportType').value;
+    const message = document.getElementById('reportMessage').value;
+    const fullMessage = `Halo OXAOFFICIAL_PEDIA,%0ALaporan dari: ${name}%0AKontak: ${contact}%0AJenis: ${type}%0APesan: ${message}`;
+    window.open(`https://wa.me/6283173971485?text=${fullMessage}`, '_blank');
+  }
+</script></body>
+  </html>
